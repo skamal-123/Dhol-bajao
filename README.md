@@ -1,2 +1,3 @@
 # Dhol-bajao
-Drum sounds
+A simple project using Html, Css and JavaScript . 
+
