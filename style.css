@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: darkblue;
+  color: white;
+}
+.heading{
+  height: 30vh;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 10vh;
+  box-sizing: border-box;
+ text-shadow: 3px 0 red;
+
+}
+.container{
+  display: flex;
+  gap: 1rem;
+  
+}
+button{
+  height: 150px;
+  width: 140px;
+  border-radius: 10px;
+  font-size: 4rem;
+  color: red;
+  font-weight: bold;
+  
+}
+footer{
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  
+}
+.w{
+  background-image: url("images/tom1.png");
+}
+.a {
+  background-image: url("images/tom2.png");
+}
+.s {
+  background-image: url("images/tom3.png");
+}
+.d {
+  background-image: url("images/tom4.png");
+}
+.f {
+  background-image: url("images/crash.png");
+}
+.g {
+  background-image: url("images/kick.png");
+}
+.h {
+  background-image: url("images/snare.png");
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 450px){
+  .container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    
+    
+  }
+  .heading{
+    font-size: 1.5rem;
+    height: 200px;
+  }
+  button{
+    height: 100px;
+    width: 100px;
+  }
+  footer {
+    font-size: 1rem;
+    
+  }
+  .h{
+      grid-column: span 2;
+
+  }
+}
+
+
+/*Aditional class*/
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
